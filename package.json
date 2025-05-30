@@ -5,6 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "postinstall": "concurrently \"cd backend && npm install\" \"cd client && npm install\"",
+    "lint:backend": "cd backend && npm run lint",
+    "lint:frontend": "cd client && npm run lint",
+    "lint": "npm run lint:backend && npm run lint:frontend",
     "dev:backend": "cd backend && npm run dev",
     "dev:frontend": "cd client && npm run dev",
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
@@ -18,6 +22,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/morgan": "^1.9.9",
     "concurrently": "^8.2.2"
   },
   "dependencies": {
