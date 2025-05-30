@@ -1,0 +1,122 @@
+2025-05-30 16:25:01 [[32minfo[39m]: Connected to Mongo database {"host":"ac-dmzfsr9-shard-00-00.nrdxojl.mongodb.net"}
+2025-05-30 16:25:01 [[32minfo[39m]: Server running at http://localhost:8000 in development mode
+2025-05-30 16:25:08 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 16:25:08 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 16:25:08 [[31merror[39m]: Error: Unauthorized. Please log in.
+    at isAuthenticated (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\isAuthenticated.middleware.ts:6:11)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\node_modules\express\lib\router\index.js:286:9 {"method":"GET","url":"/api/user/current"}
+2025-05-30 16:25:16 [[32minfo[39m]: Google OAuth profile received {"profile":{"id":"117566417796162190044","displayName":"Rabindra Basnet","name":{"familyName":"Basnet","givenName":"Rabindra"},"emails":[{"value":"rabindraabasnet@gmail.com","verified":true}],"photos":[{"value":"https://lh3.googleusercontent.com/a-/ALV-UjX_M72dMPh9ulxs63iBvpacu3vX_gxgLpRa3FfcVVdI-ZnM5BGSJ0KlSgFSegGj0zfNkHEF7uTNwKwoEJ_eNSZ8dLAhH84GMDymDeMg0o81YqGXBnQEVRgJYtHLCO5x97haFpzTRmlw2LFJCI3KAlbx3zaZOzqMkEXLLerAvooPFNL7mIktVTyvUJyOAJH8Seq6u7jdiEkkuTciywxhqApRF-bhbsAi-VDTV4DsWCsVGqQRPQ9jG1hG2PqikCGURZjy49ecxDDqRly4j26QQNz1QYPYeNP5p_0LBy4N2itUh9iiVPjYqWFf-Z-YrmaxwH_WiofZZD7eCxnnqVOFXfC_7y9A-9DDmz2vYrOB1vcjdaeMdAm1y4JWAQsRt2DX8EnQREWgqQd073wyrSE_26ziexfOOlwEPFgfalpSlO5mZuRShJZoLbU-l1iXTyRO78fugfBh8FPAiJmxIbKxRsi-Yr59RKkwg02gNVZM2e0pyclZijOFzwx9FicVakzmQN4qsBVLfrvgDElUxW9I6AyaCYU6IgSdLgEhKdIPrdNsJqjlu5TenJ_583ghvgNXTt9agAPdH_p7_q1LFotfhllr4FHOYd2XjhFv94QTuAz3kciYu8ac9CVJ3fpYs83q8PGn2yeQvJT3_cemDRFRnh3AIvAO0FCtjcisI51ytARmAqXbBSJFAID0iLNDTbwTkKzmQgHeqI3SLTGpaJbckG0oRd8g7bp3pbA5q5j6sIYFI5IrVvzoigB6SeySpXKrwG4IYs92A7t3NbtsbvLQyRPedknAmeMKoHdYwvTKIIew2KAdpsN4owATC9wbdCMQlmG2ZQ3WQnme6Ayasdb91uAmpvrHrlHpdN_M9dpCslX85DSFUDqGGLU9eCNjAB8sZnrMUXAUCGW4KpstlboKIyY7KIgjFwqJB4sJjuGEovwJXIImIk-V3GpAyOiY792UGC3NeCAMhIGgBlYhADOSM8br_SmKsg=s96-c"}],"provider":"google","_raw":"{\n  \"sub\": \"117566417796162190044\",\n  \"name\": \"Rabindra Basnet\",\n  \"given_name\": \"Rabindra\",\n  \"family_name\": \"Basnet\",\n  \"picture\": \"https://lh3.googleusercontent.com/a-/ALV-UjX_M72dMPh9ulxs63iBvpacu3vX_gxgLpRa3FfcVVdI-ZnM5BGSJ0KlSgFSegGj0zfNkHEF7uTNwKwoEJ_eNSZ8dLAhH84GMDymDeMg0o81YqGXBnQEVRgJYtHLCO5x97haFpzTRmlw2LFJCI3KAlbx3zaZOzqMkEXLLerAvooPFNL7mIktVTyvUJyOAJH8Seq6u7jdiEkkuTciywxhqApRF-bhbsAi-VDTV4DsWCsVGqQRPQ9jG1hG2PqikCGURZjy49ecxDDqRly4j26QQNz1QYPYeNP5p_0LBy4N2itUh9iiVPjYqWFf-Z-YrmaxwH_WiofZZD7eCxnnqVOFXfC_7y9A-9DDmz2vYrOB1vcjdaeMdAm1y4JWAQsRt2DX8EnQREWgqQd073wyrSE_26ziexfOOlwEPFgfalpSlO5mZuRShJZoLbU-l1iXTyRO78fugfBh8FPAiJmxIbKxRsi-Yr59RKkwg02gNVZM2e0pyclZijOFzwx9FicVakzmQN4qsBVLfrvgDElUxW9I6AyaCYU6IgSdLgEhKdIPrdNsJqjlu5TenJ_583ghvgNXTt9agAPdH_p7_q1LFotfhllr4FHOYd2XjhFv94QTuAz3kciYu8ac9CVJ3fpYs83q8PGn2yeQvJT3_cemDRFRnh3AIvAO0FCtjcisI51ytARmAqXbBSJFAID0iLNDTbwTkKzmQgHeqI3SLTGpaJbckG0oRd8g7bp3pbA5q5j6sIYFI5IrVvzoigB6SeySpXKrwG4IYs92A7t3NbtsbvLQyRPedknAmeMKoHdYwvTKIIew2KAdpsN4owATC9wbdCMQlmG2ZQ3WQnme6Ayasdb91uAmpvrHrlHpdN_M9dpCslX85DSFUDqGGLU9eCNjAB8sZnrMUXAUCGW4KpstlboKIyY7KIgjFwqJB4sJjuGEovwJXIImIk-V3GpAyOiY792UGC3NeCAMhIGgBlYhADOSM8br_SmKsg\\u003ds96-c\",\n  \"email\": \"rabindraabasnet@gmail.com\",\n  \"email_verified\": true\n}","_json":{"sub":"117566417796162190044","name":"Rabindra Basnet","given_name":"Rabindra","family_name":"Basnet","picture":"https://lh3.googleusercontent.com/a-/ALV-UjX_M72dMPh9ulxs63iBvpacu3vX_gxgLpRa3FfcVVdI-ZnM5BGSJ0KlSgFSegGj0zfNkHEF7uTNwKwoEJ_eNSZ8dLAhH84GMDymDeMg0o81YqGXBnQEVRgJYtHLCO5x97haFpzTRmlw2LFJCI3KAlbx3zaZOzqMkEXLLerAvooPFNL7mIktVTyvUJyOAJH8Seq6u7jdiEkkuTciywxhqApRF-bhbsAi-VDTV4DsWCsVGqQRPQ9jG1hG2PqikCGURZjy49ecxDDqRly4j26QQNz1QYPYeNP5p_0LBy4N2itUh9iiVPjYqWFf-Z-YrmaxwH_WiofZZD7eCxnnqVOFXfC_7y9A-9DDmz2vYrOB1vcjdaeMdAm1y4JWAQsRt2DX8EnQREWgqQd073wyrSE_26ziexfOOlwEPFgfalpSlO5mZuRShJZoLbU-l1iXTyRO78fugfBh8FPAiJmxIbKxRsi-Yr59RKkwg02gNVZM2e0pyclZijOFzwx9FicVakzmQN4qsBVLfrvgDElUxW9I6AyaCYU6IgSdLgEhKdIPrdNsJqjlu5TenJ_583ghvgNXTt9agAPdH_p7_q1LFotfhllr4FHOYd2XjhFv94QTuAz3kciYu8ac9CVJ3fpYs83q8PGn2yeQvJT3_cemDRFRnh3AIvAO0FCtjcisI51ytARmAqXbBSJFAID0iLNDTbwTkKzmQgHeqI3SLTGpaJbckG0oRd8g7bp3pbA5q5j6sIYFI5IrVvzoigB6SeySpXKrwG4IYs92A7t3NbtsbvLQyRPedknAmeMKoHdYwvTKIIew2KAdpsN4owATC9wbdCMQlmG2ZQ3WQnme6Ayasdb91uAmpvrHrlHpdN_M9dpCslX85DSFUDqGGLU9eCNjAB8sZnrMUXAUCGW4KpstlboKIyY7KIgjFwqJB4sJjuGEovwJXIImIk-V3GpAyOiY792UGC3NeCAMhIGgBlYhADOSM8br_SmKsg=s96-c","email":"rabindraabasnet@gmail.com","email_verified":true}},"googleId":"117566417796162190044"}
+2025-05-30 16:25:16 [[32minfo[39m]: Started MongoDB session for loginOrCreateAccountService {"provider":"GOOGLE","email":"rabindraabasnet@gmail.com"}
+2025-05-30 16:25:16 [[32minfo[39m]: User found, skipping creation {"email":"rabindraabasnet@gmail.com","userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:16 [[32minfo[39m]: MongoDB transaction committed
+2025-05-30 16:25:16 [[32minfo[39m]: MongoDB session ended
+2025-05-30 16:25:16 [[32minfo[39m]: User logged in or created via Google OAuth {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:16 [[32minfo[39m]: Serializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:16 [[32minfo[39m]: Google login callback success {"userId":"68297effb356f9acf8483c98","workspaceId":"68297effb356f9acf8483c9c"}
+2025-05-30 16:25:17 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:17 [[32minfo[39m]: Fetch current user request {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: User fetched successfully {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: Fetching all workspaces for user: 68297effb356f9acf8483c98
+2025-05-30 16:25:18 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: Fetch all projects request {"userId":"68297effb356f9acf8483c98","workspaceId":"68297effb356f9acf8483c9c","query":{"pageSize":"5","pageNumber":"1"}}
+2025-05-30 16:25:18 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: Fetch all projects request {"userId":"68297effb356f9acf8483c98","workspaceId":"68297effb356f9acf8483c9c","query":{"pageSize":"10","pageNumber":"1"}}
+2025-05-30 16:25:18 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: Fetch current user request {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[32minfo[39m]: User fetched successfully {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 16:25:18 [[33mwarn[39m]: Unauthorized access attempt by role: undefined - missing permissions: VIEW_ONLY
+2025-05-30 16:25:18 [[31merror[39m]: Error in GET /api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=10&pageNumber=1: You do not have the necessary permissions to perform this action
+2025-05-30 16:25:18 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\project.controller.ts:53:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=10&pageNumber=1"}
+2025-05-30 16:25:18 [[33mwarn[39m]: Unauthorized access attempt by role: undefined - missing permissions: VIEW_ONLY
+2025-05-30 16:25:18 [[31merror[39m]: Error in GET /api/workspace/analytics/68297effb356f9acf8483c9c: You do not have the necessary permissions to perform this action
+2025-05-30 16:25:18 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\workspace.controller.ts:102:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/workspace/analytics/68297effb356f9acf8483c9c"}
+2025-05-30 16:25:18 [[32minfo[39m]: Found 1 workspaces for user: 68297effb356f9acf8483c98
+2025-05-30 16:25:18 [[32minfo[39m]: User 68297effb356f9acf8483c98 fetched all their workspaces
+2025-05-30 16:25:18 [[33mwarn[39m]: Unauthorized access attempt by role: undefined - missing permissions: VIEW_ONLY
+2025-05-30 16:25:18 [[31merror[39m]: Error in GET /api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=5&pageNumber=1: You do not have the necessary permissions to perform this action
+2025-05-30 16:25:18 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\project.controller.ts:53:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=5&pageNumber=1"}
+2025-05-30 16:25:19 [[32minfo[39m]: Fetching workspace by id: 68297effb356f9acf8483c9c
+2025-05-30 16:25:19 [[32minfo[39m]: User 68297effb356f9acf8483c98 fetched workspace 68297effb356f9acf8483c9c
+2025-05-30 17:32:39 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:39 [[32minfo[39m]: Fetch current user request {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:39 [[32minfo[39m]: User fetched successfully {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:40 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:40 [[32minfo[39m]: Fetch all projects request {"userId":"68297effb356f9acf8483c98","workspaceId":"68297effb356f9acf8483c9c","query":{"pageSize":"5","pageNumber":"1"}}
+2025-05-30 17:32:40 [[33mwarn[39m]: Unauthorized access attempt by role: undefined - missing permissions: VIEW_ONLY
+2025-05-30 17:32:40 [[31merror[39m]: Error in GET /api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=5&pageNumber=1: You do not have the necessary permissions to perform this action
+2025-05-30 17:32:40 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\project.controller.ts:53:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=5&pageNumber=1"}
+2025-05-30 17:32:40 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:40 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:40 [[32minfo[39m]: Fetch all projects request {"userId":"68297effb356f9acf8483c98","workspaceId":"68297effb356f9acf8483c9c","query":{"pageSize":"10","pageNumber":"1"}}
+2025-05-30 17:32:40 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:40 [[32minfo[39m]: Fetch current user request {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:40 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:40 [[32minfo[39m]: Fetching all workspaces for user: 68297effb356f9acf8483c98
+2025-05-30 17:32:40 [[32minfo[39m]: Deserializing user {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:41 [[33mwarn[39m]: Unauthorized access attempt by role: undefined - missing permissions: VIEW_ONLY
+2025-05-30 17:32:41 [[31merror[39m]: Error in GET /api/workspace/analytics/68297effb356f9acf8483c9c: You do not have the necessary permissions to perform this action
+2025-05-30 17:32:41 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\workspace.controller.ts:102:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/workspace/analytics/68297effb356f9acf8483c9c"}
+2025-05-30 17:32:41 [[32minfo[39m]: Found 1 workspaces for user: 68297effb356f9acf8483c98
+2025-05-30 17:32:41 [[32minfo[39m]: User 68297effb356f9acf8483c98 fetched all their workspaces
+2025-05-30 17:32:41 [[32minfo[39m]: Fetching workspace by id: 68297effb356f9acf8483c9c
+2025-05-30 17:32:41 [[32minfo[39m]: User fetched successfully {"userId":"68297effb356f9acf8483c98"}
+2025-05-30 17:32:41 [[32minfo[39m]: User 68297effb356f9acf8483c98 fetched workspace 68297effb356f9acf8483c9c
+2025-05-30 17:32:41 [[33mwarn[39m]: Unauthorized access attempt by role: undefined - missing permissions: VIEW_ONLY
+2025-05-30 17:32:41 [[31merror[39m]: Error in GET /api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=10&pageNumber=1: You do not have the necessary permissions to perform this action
+2025-05-30 17:32:41 [[31merror[39m]: Error: You do not have the necessary permissions to perform this action
+    at roleGuard (C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\utils\roleGuard.ts:18:11)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\controllers\project.controller.ts:53:14
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at C:\Users\User\Desktop\parent\B2B_TeamManagement_SAAS\backend\src\middlewares\asyncHandler.middleware.ts:14:7 {"method":"GET","url":"/api/project/workspace/68297effb356f9acf8483c9c/all?pageSize=10&pageNumber=1"}
+2025-05-30 17:33:01 [[32minfo[39m]: Gracefully shutting down...

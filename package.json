@@ -1,0 +1,29 @@
+{
+  "name": "b2b_teammanagement_saas",
+  "version": "1.0.0",
+  "description": "Monorepo for B2B Team Management SaaS (Frontend + Backend)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd client && npm run dev",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build:backend": "cd backend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "build": "npm run build:backend && npm run build:frontend",
+    "start:backend": "cd backend && npm start",
+    "preview:frontend": "cd frontend && npm run preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "npm": "^11.4.0",
+    "postgres": "^3.4.6",
+    "resend": "^4.5.1",
+    "winston": "^3.17.0"
+  }
+}
